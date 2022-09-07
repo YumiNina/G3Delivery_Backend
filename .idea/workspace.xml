@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98625efe-c861-403a-9acd-45cdab8c7344" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/http/BranchOffice.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/User.http" beforeDir="false" afterPath="$PROJECT_DIR$/http/User.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kzYtu0LKo2CSOoXNwzF4WZFHSR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/users/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:8080/users/edit/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;firstname&quot;: &quot;All&quot;,&#10;  &quot;lastname&quot;: &quot;Cordova&quot;,&#10;  &quot;phone&quot;: &quot;+59171230898&quot;,&#10;  &quot;email&quot;: &quot;allen@mail.com&quot;,&#10;  &quot;neighbourId&quot;: 1,&#10;  &quot;street&quot;: &quot;Av. 14 de Septiembre&quot;,&#10;  &quot;number&quot;: &quot;123-B&quot;,&#10;  &quot;reference&quot;: &quot;Entrando media cuadra&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:8080/users/edit/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;firstname&quot;: &quot;Allen&quot;,&#10;  &quot;lastname&quot;: &quot;Cordova&quot;,&#10;  &quot;phone&quot;: &quot;+59171230898&quot;,&#10;  &quot;email&quot;: &quot;allen@mail.com&quot;,&#10;  &quot;neighbourId&quot;: 1,&#10;  &quot;street&quot;: &quot;Av. 14 de Septiembre&quot;,&#10;  &quot;number&quot;: &quot;123-B&quot;,&#10;  &quot;reference&quot;: &quot;Entrando media cuadra&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:8080/vouchers/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;date&quot;: &quot;2020-11-02&quot;,&#10;&quot;total&quot;: 12511.5&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/vouchers" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;orderId&quot;: 1,&#10;&quot;paymentId&quot;: 1,&#10;  &quot;date&quot;: &quot;2020-11-02&quot;,&#10;&quot;total&quot;: 1550.5&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/users/1/orders/2" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/users/1/orders" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/products/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/users/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;firstname&quot;: &quot;Jose&quot;,&#10;  &quot;lastname&quot;: &quot;Perez&quot;,&#10;  &quot;phone&quot;: &quot;+59178945098&quot;,&#10;  &quot;email&quot;: &quot;jperez@mail.com&quot;,&#10;  &quot;password&quot;: &quot;hello_there&quot;,&#10;  &quot;neighbourId&quot;: 1,&#10;  &quot;street&quot;: &quot;Av. Busch&quot;,&#10;  &quot;number&quot;: &quot;123-A&quot;,&#10;  &quot;reference&quot;: &quot;Entrando media cuadra de Av. Busch&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/users/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;firstname&quot;: &quot;Juan&quot;,&#10;  &quot;lastname&quot;: &quot;Perez&quot;,&#10;  &quot;phone&quot;: &quot;+59178945098&quot;,&#10;  &quot;email&quot;: &quot;jperez@mail.com&quot;,&#10;  &quot;password&quot;: &quot;hello_there&quot;,&#10;  &quot;neighbourId&quot;: 1,&#10;  &quot;street&quot;: &quot;Av. Busch&quot;,&#10;  &quot;number&quot;: &quot;123-A&quot;,&#10;  &quot;reference&quot;: &quot;Entrando media cuadra de Av. Busch&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080/vouchers/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;txStatus&quot;: 1&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/orders/order" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;productId&quot;: 1,&#10;&quot;addressId&quot; : 1,&#10;&quot;userId&quot;: 1,&#10;&quot;date&quot;: &quot;1999-08-22&quot;,&#10;&quot;status&quot;: 1,&#10;&quot;state&quot;: 1,&#10;&quot;total&quot;: 190.0&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:8080/orders/address/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;neighbour&quot;: &quot;Alto Obrajes&quot;,&#10;  &quot;street&quot;: &quot;Av. 14 de Septiembre&quot;,&#10;  &quot;number&quot;: &quot;12&quot;,&#10;  &quot;reference&quot;: &quot;esquina calle 2&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:8080/orders/state/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;state&quot;: 5&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/products" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;productName&quot;: &quot;Laptop Alienware&quot;,&#10;  &quot;detail&quot;: &quot;procesador i7 9700k&quot;,&#10;  &quot;model&quot;: &quot;Area 51&quot;,&#10;  &quot;price&quot;: 15500.5,&#10;  &quot;stock&quot;: 15,&#10;  &quot;description&quot;: &quot;Laptop gamer de 15,3 pulgadas&quot;,&#10;  &quot;storeAvailable&quot;: true,&#10;  &quot;deliveryAvailable&quot;: true,&#10;  &quot;image&quot;: &quot;https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/alienware_notebooks/17_area-51m_non-tobii/pdp/laptops-aw-alienware-area-51m-r2-nt-pdp-mod-5.jpg?fmt=jpg&quot;,&#10;  &quot;brandId&quot;: 1,&#10;  &quot;tagId&quot;: 2&#10;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080/products/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;txStatus&quot;: 0&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PATCH" />
+          <option name="urlBase" value="http://localhost:8080/products/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;price&quot;: 12511.5,&#10;&quot;stock&quot;: 100,&#10;&quot;storeAvailable&quot;: false,&#10;&quot;deliveryAvailable&quot;: false&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.IngsoftApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/User.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="User#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/User.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="User#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/User.http" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Voucher#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/Voucher.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Voucher#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http/Voucher.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="IngsoftApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ingsoft" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bo.ucb.edu.ingsoft.IngsoftApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.User#3" />
+        <item itemvalue="HTTP Request.User#2" />
+        <item itemvalue="HTTP Request.Voucher#2" />
+        <item itemvalue="HTTP Request.Voucher#1" />
+        <item itemvalue="HTTP Request.User#5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98625efe-c861-403a-9acd-45cdab8c7344" name="Default Changelist" comment="" />
+      <created>1606705126291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606705126291</updated>
+      <workItem from="1606705142522" duration="4513000" />
+      <workItem from="1606863885125" duration="5623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="205" key="#SQL_Dialects" timestamp="1606706707594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="72" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1606706707594" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606706308483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606706308483" />
+    <state width="964" height="179" key="GridCell.Tab.0.bottom" timestamp="1606883876973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876973" />
+    <state width="1070" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606707367884" />
+    <state width="964" height="179" key="GridCell.Tab.0.center" timestamp="1606883876973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876973" />
+    <state width="1070" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606707367884" />
+    <state width="964" height="179" key="GridCell.Tab.0.left" timestamp="1606883876973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876973" />
+    <state width="1070" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606707367884" />
+    <state width="964" height="179" key="GridCell.Tab.0.right" timestamp="1606883876973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="964" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876973" />
+    <state width="1070" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606707367884" />
+    <state width="965" height="179" key="GridCell.Tab.1.bottom" timestamp="1606883876288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="965" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876288" />
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606706807572" />
+    <state width="965" height="179" key="GridCell.Tab.1.center" timestamp="1606883876288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="965" height="179" key="GridCell.Tab.1.center/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876288" />
+    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606706807572" />
+    <state width="965" height="179" key="GridCell.Tab.1.left" timestamp="1606883876288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="965" height="179" key="GridCell.Tab.1.left/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876288" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606706807572" />
+    <state width="965" height="179" key="GridCell.Tab.1.right" timestamp="1606883876288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="965" height="179" key="GridCell.Tab.1.right/0.0.1366.728/-1280.43.1280.680@0.0.1366.728" timestamp="1606883876288" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606706807572" />
+  </component>
+</project>

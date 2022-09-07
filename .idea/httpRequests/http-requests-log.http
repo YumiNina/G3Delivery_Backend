@@ -1,0 +1,429 @@
+GET http://localhost:8080/users/1
+Accept: application/json
+
+<> 2020-12-01T114253.200.json
+
+###
+
+PATCH http://localhost:8080/users/edit/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "All",
+  "lastname": "Cordova",
+  "phone": "+59171230898",
+  "email": "allen@mail.com",
+  "neighbourId": 1,
+  "street": "Av. 14 de Septiembre",
+  "number": "123-B",
+  "reference": "Entrando media cuadra"
+}
+
+<> 2020-12-01T114211.200.json
+
+###
+
+PATCH http://localhost:8080/users/edit/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Allen",
+  "lastname": "Cordova",
+  "phone": "+59171230898",
+  "email": "allen@mail.com",
+  "neighbourId": 1,
+  "street": "Av. 14 de Septiembre",
+  "number": "123-B",
+  "reference": "Entrando media cuadra"
+}
+
+<> 2020-12-01T114201.200.json
+
+###
+
+GET http://localhost:8080/users/1
+Accept: application/json
+
+<> 2020-12-01T114148.200.json
+
+###
+
+PATCH http://localhost:8080/vouchers/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "date": "2020-11-02",
+"total": 12511.5
+}
+
+<> 2020-12-01T113809.404.json
+
+###
+
+POST http://localhost:8080/vouchers
+Accept: application/json
+Content-Type: application/json
+
+{
+"orderId": 1,
+"paymentId": 1,
+  "date": "2020-11-02",
+"total": 1550.5
+}
+
+<> 2020-12-01T113803.405.json
+
+###
+
+GET http://localhost:8080/users/1/orders/2
+
+<> 2020-12-01T113750.200.json
+
+###
+
+GET http://localhost:8080/users/1/orders
+
+<> 2020-12-01T113741.200.json
+
+###
+
+GET http://localhost:8080/users/1
+Accept: application/json
+
+<> 2020-12-01T113716.200.json
+
+###
+
+GET http://localhost:8080/products/1
+Accept: application/json
+
+<> 2020-12-01T113641.200.json
+
+###
+
+POST http://localhost:8080/users/signup
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Jose",
+  "lastname": "Perez",
+  "phone": "+59178945098",
+  "email": "jperez@mail.com",
+  "password": "hello_there",
+  "neighbourId": 1,
+  "street": "Av. Busch",
+  "number": "123-A",
+  "reference": "Entrando media cuadra de Av. Busch"
+}
+
+<> 2020-12-01T072355.200.json
+
+###
+
+POST http://localhost:8080/users/signup
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Juan",
+  "lastname": "Perez",
+  "phone": "+59178945098",
+  "email": "jperez@mail.com",
+  "password": "hello_there",
+  "neighbourId": 1,
+  "street": "Av. Busch",
+  "number": "123-A",
+  "reference": "Entrando media cuadra de Av. Busch"
+}
+
+<> 2020-12-01T072340.200.json
+
+###
+
+DELETE http://localhost:8080/vouchers/1
+Accept: application/json
+Content-Type: application/json
+
+{
+"txStatus": 1
+}
+
+<> 2020-11-29T113607.404.json
+
+###
+
+PATCH http://localhost:8080/vouchers/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "date": "2020-11-02",
+"total": 12511.5
+}
+
+<> 2020-11-29T113604.404.json
+
+###
+
+POST http://localhost:8080/vouchers
+Accept: application/json
+Content-Type: application/json
+
+{
+"orderId": 1,
+"paymentId": 1,
+  "date": "2020-11-02",
+"total": 1550.5
+}
+
+<> 2020-11-29T113600.405.json
+
+###
+
+POST http://localhost:8080/orders/order
+Accept: application/json
+Content-Type: application/json
+
+{
+"productId": 1,
+"addressId" : 1,
+"userId": 1,
+"date": "1999-08-22",
+"status": 1,
+"state": 1,
+"total": 190.0
+}
+
+<> 2020-11-29T113539.500.json
+
+###
+
+PATCH http://localhost:8080/orders/address/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "neighbour": "Alto Obrajes",
+  "street": "Av. 14 de Septiembre",
+  "number": "12",
+  "reference": "esquina calle 2"
+}
+
+<> 2020-11-29T113532.500.json
+
+###
+
+PATCH http://localhost:8080/orders/state/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "state": 5
+}
+
+<> 2020-11-29T113525.200.json
+
+###
+
+POST http://localhost:8080/products
+Accept: application/json
+Content-Type: application/json
+
+{
+  "productName": "Laptop Alienware",
+  "detail": "procesador i7 9700k",
+  "model": "Area 51",
+  "price": 15500.5,
+  "stock": 15,
+  "description": "Laptop gamer de 15,3 pulgadas",
+  "storeAvailable": true,
+  "deliveryAvailable": true,
+  "image": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/alienware_notebooks/17_area-51m_non-tobii/pdp/laptops-aw-alienware-area-51m-r2-nt-pdp-mod-5.jpg?fmt=jpg",
+  "brandId": 1,
+  "tagId": 2
+
+}
+
+<> 2020-11-29T113102.200.json
+
+###
+
+GET http://localhost:8080/products/1
+Accept: application/json
+
+<> 2020-11-29T113052.200.json
+
+###
+
+DELETE http://localhost:8080/products/1
+Accept: application/json
+Content-Type: application/json
+
+{
+"txStatus": 0
+}
+
+<> 2020-11-29T113045.200.json
+
+###
+
+PATCH http://localhost:8080/products/1
+Accept: application/json
+Content-Type: application/json
+
+{
+"price": 12511.5,
+"stock": 100,
+"storeAvailable": false,
+"deliveryAvailable": false
+}
+
+<> 2020-11-29T113041.200.json
+
+###
+
+POST http://localhost:8080/products
+Accept: application/json
+Content-Type: application/json
+
+{
+  "productName": "Laptop Alienware",
+  "detail": "procesador i7 9700k",
+  "model": "Area 51",
+  "price": 15500.5,
+  "stock": 15,
+  "description": "Laptop gamer de 15,3 pulgadas",
+  "storeAvailable": true,
+  "deliveryAvailable": true,
+  "image": "https://i.dell.com/is/image/DellContent//content/dam/global-site-design/product_images/dell_client_products/notebooks/alienware_notebooks/17_area-51m_non-tobii/pdp/laptops-aw-alienware-area-51m-r2-nt-pdp-mod-5.jpg?fmt=jpg",
+  "brandId": 1,
+  "tagId": 2
+
+}
+
+<> 2020-11-29T113031.200.json
+
+###
+
+POST http://localhost:8080/users/signup
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Juan",
+  "lastname": "Perez",
+  "phone": "+59178945098",
+  "email": "jperez@mail.com",
+  "password": "hello_there",
+  "neighbourId": 1,
+  "street": "Av. Busch",
+  "number": "123-A",
+  "reference": "Entrando media cuadra de Av. Busch"
+}
+
+<> 2020-11-29T112811.200.json
+
+###
+
+POST http://localhost:8080/users/signup
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Juan",
+  "lastname": "Perez",
+  "phone": "+59178945098",
+  "email": "jperez@mail.com",
+  "password": "hello_there",
+  "neighbourId": 1,
+  "street": "Av. Busch",
+  "number": "123-A",
+  "reference": "Entrando media cuadra de Av. Busch"
+}
+
+<> 2020-11-29T112720.200.json
+
+###
+
+GET http://localhost:8080/users/1/orders/2
+
+<> 2020-11-29T112714.200.json
+
+###
+
+GET http://localhost:8080/users/1/orders
+
+<> 2020-11-29T112708.200.json
+
+###
+
+GET http://localhost:8080/users/1
+Accept: application/json
+
+<> 2020-11-29T112703.200.json
+
+###
+
+PATCH http://localhost:8080/users/edit/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Allen",
+  "lastname": "Cordova",
+  "phone": "+59171230898",
+  "email": "allen@mail.com",
+  "neighbourId": 1,
+  "street": "Av. 14 de Septiembre",
+  "number": "123-B",
+  "reference": "Entrando media cuadra"
+}
+
+<> 2020-11-29T112656.200.json
+
+###
+
+POST http://localhost:8080/users/signup
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Juan",
+  "lastname": "Perez",
+  "phone": "+59178945098",
+  "email": "jperez@mail.com",
+  "password": "hello_there",
+  "neighbourId": 1,
+  "street": "Av. Busch",
+  "number": "123-A",
+  "reference": "Entrando media cuadra de Av. Busch"
+}
+
+<> 2020-11-29T112649.200.json
+
+###
+
+POST http://localhost:8080/users/signup
+Accept: application/json
+Content-Type: application/json
+
+{
+  "firstname": "Juan",
+  "lastname": "Perez",
+  "phone": "+59178945098",
+  "email": "jperez@mail.com",
+  "password": "hello_there",
+  "neighbourId": 1,
+  "street": "Av. Busch",
+  "number": "123-A",
+  "reference": "Entrando media cuadra de Av. Busch"
+}
+
+<> 2020-11-29T112550.500.json
+
+###
+
