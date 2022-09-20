@@ -1,5 +1,19 @@
 
+package bo.ucb.edu.ingsoft.api;
 
+import bo.ucb.edu.ingsoft.bl.ProductBl;
+import bo.ucb.edu.ingsoft.bl.TransactionBl;
+import bo.ucb.edu.ingsoft.dto.*;
+import bo.ucb.edu.ingsoft.model.Brand;
+import bo.ucb.edu.ingsoft.model.Product;
+import bo.ucb.edu.ingsoft.model.Tag;
+import bo.ucb.edu.ingsoft.util.TransactionUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 @RestController
 @RequestMapping(value = "/products")
 public class ProductApi {
