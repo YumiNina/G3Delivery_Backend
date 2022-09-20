@@ -1,4 +1,19 @@
+package bo.ucb.edu.ingsoft.bl;
 
+import bo.ucb.edu.ingsoft.dao.UserDao;
+import bo.ucb.edu.ingsoft.dao.TransactionDao;
+import bo.ucb.edu.ingsoft.dao.AddressDao;
+
+import bo.ucb.edu.ingsoft.dto.*;
+
+import bo.ucb.edu.ingsoft.model.User;
+import bo.ucb.edu.ingsoft.model.Order;
+import bo.ucb.edu.ingsoft.model.Address;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class UserBl {
