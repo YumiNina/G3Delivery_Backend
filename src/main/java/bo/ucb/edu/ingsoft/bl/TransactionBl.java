@@ -15,5 +15,14 @@ public class TransactionBl {
         this.transactionDao = transactionDao;
     }
 
-    
+    public Transaction createTransaction (Transaction transaction) {
+        // Registramos la transacción en la Base de Datos
+        this.transactionDao.create(transaction);
+
+        // Obtenemos la llave primaria generada
+        Integer lastPrimaryKey = this.transactionDao.getLastInsertId();
+
+        transaction.setTxId(lastPrimaryKey);
+        return transaction;
+    }
 }
