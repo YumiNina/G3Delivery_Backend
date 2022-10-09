@@ -26,7 +26,8 @@ public interface UserDao {
     public List<UserGetOrderId> findOrderByOrderId(Integer userId,Integer orderId);
 
     //Actualizacion de datos de usuario
-    
+    public void update(User user);
+    public Integer selectAddressId(Integer userId);
 
 
 
