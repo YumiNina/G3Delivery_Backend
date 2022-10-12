@@ -44,18 +44,7 @@ public class UserApi {
 
     //RequestMapping PATCH para la modificacion de usuarios
     //PathVariable obtiene el Id del usuario desde el path
-    @RequestMapping(path = "users/edit/{userId}", method = RequestMethod.PATCH, produces = MediaType.APPLICATION_JSON_VALUE)
-    @CrossOrigin(origins = "http://localhost:4200")
-    public UserUpdate updateUser(@RequestBody UserUpdate userUpdate, User user, Address address, HttpServletRequest request, @PathVariable int userId){
-
-        Transaction transaction = TransactionUtil.createTransaction(request);
-
-        transactionBl.createTransaction(transaction);
-        UserUpdate userResponse = userBl.updateUser(userUpdate, user, transaction, address, userId);
-
-        return userResponse;
-
-    }
+    
 
     //RequestMapping GET para la obtencion de datos del usuario
     //PathVariable obtiene el Id del usuario
