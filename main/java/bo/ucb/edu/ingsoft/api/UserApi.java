@@ -65,15 +65,4 @@ public class UserApi {
         return userBl.findUserById(userId);
     }
 
-    @RequestMapping(path = "users/{userId}/orders", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @CrossOrigin(origins = "http://localhost:4200")
-    public List<UserOrderGet> findOrdersByUserId(HttpServletRequest request, @PathVariable int userId){
-        return userBl.findOrdersByUserId(userId);
-    }
-
-    @RequestMapping(path = "users/{userId}/orders/{orderId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @CrossOrigin(origins = "http://localhost:4200")
-    public List<UserGetOrderId> findOrderByOrderId(HttpServletRequest request, @PathVariable int orderId, @PathVariable int userId){
-        return userBl.findOrderByOrderId(userId, orderId);
-    }
 }
