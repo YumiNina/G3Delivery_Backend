@@ -12,6 +12,46 @@ public class MakeOrder {
     private Integer state;
     private BigDecimal total;
 
+    public MakeOrder() {
+    }
+
+
+    public Integer getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Integer productId) {
+        this.productId = productId;
+    }
+
+    public Integer getAddressId() {
+        return addressId;
+    }
+
+    public void setAddressId(Integer addressId) {
+        this.addressId = addressId;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
     public void setStatus(Integer status) {
         this.status = status;
     }
