@@ -20,7 +20,7 @@ logging:
         ibatis:
           UserMapper=DEBUG:
 mybatis:
-  configuration:
+  configuration: 
     default-fetch-size: 100
-    default-statement-timeout: 30
+    default-statement-timeout: 300
   mapper-locations: classpath:/dao/*Dao.xml
