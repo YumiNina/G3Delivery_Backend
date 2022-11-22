@@ -74,6 +74,6 @@ public class UserApi {
     @RequestMapping(path = "users/{userId}/orders/{orderId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @CrossOrigin(origins = "http://localhost:4200")
     public List<UserGetOrderId> findOrderByOrderId(HttpServletRequest request, @PathVariable int orderId, @PathVariable int userId){
-        return userBl.findOrderByOrderId(userId, orderId);
+        return userBl.findOrderByOrderId(userId,  orderId);
     }
 }
