@@ -91,18 +91,7 @@ public class ProductAdd {
         return deliveryAvailable;
     }
 
-    public void setDeliveryAvailable(Boolean deliveryAvailable) {
-        this.deliveryAvailable = deliveryAvailable;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
+   
     @Override
     public String toString() {
         return "ProductAdd{" +
@@ -113,10 +102,7 @@ public class ProductAdd {
                 ", model='" + model + '\'' +
                 ", price=" + price +
                 ", stock=" + stock +
-                ", description='" + description + '\'' +
-                ", storeAvailable=" + storeAvailable +
-                ", deliveryAvailable=" + deliveryAvailable +
-                ", image='" + image + '\'' +
+             
                 '}';
     }
 }
