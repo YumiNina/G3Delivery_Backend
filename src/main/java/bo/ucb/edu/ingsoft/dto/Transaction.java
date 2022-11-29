@@ -33,23 +33,4 @@ public class Transaction {
         return txHost;
     }
 
-    public void setTxHost(String txHost) {
-        this.txHost = txHost;
-    }
 
-    public Integer getTxUserId() {
-        return txUserId;
-    }
-
-    public void setTxUserId(Integer txUserId) {
-        this.txUserId = txUserId;
-    }
-
-    public Date getTxDate() {
-        return txDate;
-    }
-
-    public void setTxDate(Date txDate) {
-        this.txDate = txDate;
-    }
-}
