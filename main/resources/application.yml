@@ -19,6 +19,7 @@ logging:
       spring:
         ibatis:
           UserMapper=DEBUG:
+          
 mybatis:
   configuration:
     default-fetch-size: 100
